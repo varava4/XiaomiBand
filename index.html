@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Xiaomi Band 7</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20240724120452">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="popup-buy" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__buy buy-popup">
+						<div class="buy-popup__label">Ваш заказ</div>
+						<div class="buy-popup__model">
+							<div class="buy-popup__model-name">Xiaomi band 7<span>x1</span></div>
+							<div class="buy-popup__model-price">2500 <span>руб</span></div>
+						</div>
+						<div class="buy-popup__details">Детали заказа</div>
+						<form action="files/sendmail/sendmail.php" method="POST">
+							<div class="buy-popup__form-item buy-popup__form-item--surname">
+								<label for="surname" class="buy-popup__label-input">Фамилия</label>
+								<input id="surname" type="text" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--name">
+								<label for="name" class="buy-popup__label-input">Имя</label>
+								<input id="name" type="text" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--last-name">
+								<label for="last-name" class="buy-popup__label-input">Отчество</label>
+								<input id="last-name" type="text" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--region">
+								<label for="region" class="buy-popup__label-input">Область/регион</label>
+								<input id="region" type="text" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--city">
+								<label for="city" class="buy-popup__label-input">Город</label>
+								<input id="city" type="text" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--address">
+								<label for="address" class="buy-popup__label-input">Улица, дом, квартира</label>
+								<input id="address" type="text" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--post">
+								<label for="post" class="buy-popup__label-input">Почтовый индекс</label>
+								<input id="post" type="number" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--tel">
+								<label for="tel" class="buy-popup__label-input">Телефон</label>
+								<input id="tel" type="tel" class="buy-popup__input-buy">
+							</div>
+							<div class="buy-popup__form-item buy-popup__form-item--mail">
+								<label for="mail" class="buy-popup__label-input">Email</label>
+								<input id="mail" type="email" class="buy-popup__input-buy">
+							</div>
+							<button type="submit" class="buy-popup__button button button--buy">Подтвердить заказ</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup-promotion" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__promotion-and promotion-and">
+						<h3 class="promotion-and__title">Успей приобрести по акционному предложению</h3>
+						<div class="promotion-and__price-before">3200 руб</div>
+						<div class="promotion-and__price-after">2500<span>руб</span></div>
+						<a href="#" data-popup="#popup-buy" class="promotion-and__buy button button--buy">Купить сейчас</a>
+						<div class="promotion-and__circle-box-right">
+							<div class="promotion-and__circle promotion-and__circle--right circle"></div>
+						</div>
+						<div class="promotion-and__circle-box-left">
+							<div class="promotion-and__circle promotion-and__circle--left circle"></div>
+						</div>
+						<div class="promotion-and__svg-box-right">
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+						</div>
+						<div class="promotion-and__svg-box-left">
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="page__main main">
+				<header class="header">
+					<div class="header__container">
+						<a href="https://www.mi.com/" target="_blank" class="header__logo logo"><img src="img/icons/logo.svg" alt="Logo"></a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" data-goto=".page__main" class="menu__link link">Xiaomi band 7</a></li>
+									<li class="menu__item"><a href="#" data-goto=".page__about" class="menu__link link">Характеристики</a></li>
+									<li class="menu__item"><a href="#" data-popup="#popup-buy" class="menu__link link">Купить</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</header>
+
+
+				<div data-watch data-watch-once class="main__container">
+					<div class="main__content">
+						<div class="main__promotion-box"><a href="#" data-popup="#popup-promotion" class="main__promotion button button--promotion">Акционное предложение</a></div>
+						<h1 class="main__title">Xiaomi Band 7<br><span>“Большие”</span><br>изменения</h1>
+						<div class="main__text text">
+							<p>Самым ожидаемым продукт Xiaomi в 2022 году</p>
+						</div>
+						<div class="main__buy-box"><a href="#" data-popup="#popup-buy" class="main__buy button button--buy">Купить сейчас</a></div>
+					</div>
+					<div data-da=".main__content, 767.98, 3" class="main__images images-main">
+						<div class="images-main__left left-images-main">
+							<div class="left-images-main__circle-box">
+								<div class="left-images-main__circle circle"></div>
+							</div>
+							<div class="left-images-main__price">
+								<div class="left-images-main__price-before"><span>3200</span><br>руб.</div>
+								<div class="left-images-main__price-after"><span>2500</span><br>руб.</div>
+							</div>
+							<div class="left-images-main__svg-box">
+								<div class="left-images-main__svg">
+									<svg data-prlx-mouse data-prlx-dxr data-prlx-cx="50" viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+									</svg>
+									<svg data-prlx-mouse data-prlx-dxy data-prlx-cy="50" viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="images-main__image"><img src="img/main/xiaomi-band7.webp" alt="Xiaomi-band7"></div>
+						<div class="images-main__right right-images-main">
+							<div class="right-images-main__svg-box">
+								<div class="right-images-main__svg">
+									<svg data-prlx-mouse data-prlx-dxy data-prlx-cy="50" viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="white" stroke-width="13" stroke-linecap="round" />
+									</svg>
+									<svg data-prlx-mouse data-prlx-dxr data-prlx-cx="50" viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="white" stroke-width="13" stroke-linecap="round" />
+									</svg>
+								</div>
+							</div>
+							<div class="right-images-main__circle-box">
+								<div class="right-images-main__circle circle"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div data-watch class="about__top top-about">
+						<div class="top-about__content">
+							<div class="top-about__label">Новая версия популярного</div>
+							<h2 class="top-about__title">Фитнес-браслета</h2>
+							<div class="top-about__text text">
+								<p>
+									Совершенно новая версия «Умного» трекера от компании Xiaomi которого все ждали
+								</p>
+							</div>
+							<a href="#" data-popup="#popup-buy" class="top-about__buy button button--buy">Купить сейчас</a>
+						</div>
+						<div class="top-about__slider-box">
+							<div class="top-about__slider swiper">
+								<div class="top-about__wrapper swiper-wrapper">
+									<div class="top-about__slide swiper-slide">
+										<div class="top-about__image"><img src="img/about/slide-01.webp" alt="Image"></div>
+									</div>
+									<div class="top-about__slide swiper-slide">
+										<div class="top-about__image"><img src="img/about/slide-02.webp" alt="Image"></div>
+									</div>
+									<div class="top-about__slide swiper-slide">
+										<div class="top-about__image"><img src="img/about/slide-03.webp" alt="Image"></div>
+									</div>
+									<div class="top-about__slide swiper-slide">
+										<div class="top-about__image"><img src="img/about/slide-04.webp" alt="Image"></div>
+									</div>
+									<div class="top-about__slide swiper-slide">
+										<div class="top-about__image"><img src="img/about/slide-05.webp" alt="Image"></div>
+									</div>
+									<div class="top-about__slide swiper-slide">
+										<div class="top-about__image"><img src="img/about/slide-06.webp" alt="Image"></div>
+									</div>
+								</div>
+								<button type="button" class="top-about__swiper-button">
+									<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13 3L3.32575 9.15634C2.70826 9.54929 2.70825 10.4507 3.32575 10.8437L13 17" stroke="#FEFEFE" stroke-width="5" stroke-linecap="round" />
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="about__body">
+						<div class="about__items">
+							<article data-watch class="about__item item-about">
+								<div class="item-about__image"><img src="img/about/item-01.webp" alt="Image"></div>
+								<div class="item-about__content">
+									<h3 class="item-about__title">Измерение уровня кислорода в крови</h3>
+									<div class="item-about__text text">
+										<p>
+											Xiaomi Band 7 оснащен функцией измерения уровня кислорода в крови благодаря наличию датчика SpO2.
+										</p>
+									</div>
+								</div>
+							</article>
+							<article data-watch class="about__item item-about">
+								<div class="item-about__image"><img src="img/about/item-02.webp" alt="Image"></div>
+								<div class="item-about__content">
+									<h3 class="item-about__title">100 настраиваемых циферблатов</h3>
+									<div class="item-about__text text">
+										<p>
+											В приложение встроено более 100 циферблатов. также впервые поддерживается настройку функции циферблата –
+											циферблат не только красив, но и прост в использовании.
+										</p>
+									</div>
+								</div>
+							</article>
+							<article data-watch class="about__item item-about">
+								<div class="item-about__image"><img src="img/about/item-03.webp" alt="Image"></div>
+								<div class="item-about__content">
+									<h3 class="item-about__title">Влагозащита 50 метров</h3>
+									<div class="item-about__text text">
+										<p>
+											Фитнес-браслет имеет защиту от попадания воды по стандарту 5ATM. С Mi Band 7 можно спокойно нырять под воду
+											глубину до 50 метров. Принимайте душ или ходите под дождем, не беспокоясь о вашем браслете.
+										</p>
+									</div>
+								</div>
+							</article>
+							<article data-watch class="about__item item-about">
+								<div class="item-about__image"><img src="img/about/item-04.webp" alt="Image"></div>
+								<div class="item-about__content">
+									<h3 class="item-about__title">30 спортивных режимов</h3>
+									<div class="item-about__text text">
+										<p>
+											Xiaomi Band 7 поддерживают 30 спортивных режимов с функцией обнаружения и определения вида тренировки: бег,
+											ходьба, велосипед, футбол и теннис и многое другое.
+										</p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__and and">
+				<div class="and__container">
+					<h2 class="and__title">а также</h2>
+					<div class="and__items">
+						<div data-watch class="and__item">
+							<div class="and__card-image"><img src="img/and/card-01.webp" alt="Card"></div>
+						</div>
+						<div data-watch class="and__item">
+							<div class="and__card-image"><img src="img/and/card-02.webp" alt="Card"></div>
+						</div>
+						<div data-watch class="and__item">
+							<div class="and__card-image"><img src="img/and/card-03.webp" alt="Card"></div>
+						</div>
+						<div data-watch class="and__item">
+							<div class="and__card-image"><img src="img/and/card-04.webp" alt="Card"></div>
+						</div>
+					</div>
+					<div data-watch class="and__advantages">
+						<div class="and__advantage advantage-and">
+							<div class="advantage-and__name">120</div>
+							<div class="advantage-and__text">спортивных режимов</div>
+							<div class="advantage-and__subtext"></div>
+						</div>
+						<div class="and__advantage advantage-and">
+							<div class="advantage-and__name">nfc</div>
+							<div class="advantage-and__text">поддержка</div>
+							<div class="advantage-and__subtext"></div>
+						</div>
+						<div class="and__advantage advantage-and">
+							<div class="advantage-and__name">уровень</div>
+							<div class="advantage-and__text">кислорода в крови</div>
+							<div class="advantage-and__subtext"></div>
+						</div>
+						<div class="and__advantage advantage-and">
+							<div class="advantage-and__name">100+</div>
+							<div class="advantage-and__text">циферблатов</div>
+							<div class="advantage-and__subtext"></div>
+						</div>
+						<div class="and__advantage advantage-and">
+							<div class="advantage-and__name">14дней</div>
+							<div class="advantage-and__text">на одном заряде</div>
+							<div class="advantage-and__subtext">магнитная зарядка</div>
+						</div>
+						<div class="and__advantage advantage-and">
+							<div class="advantage-and__name">5atm</div>
+							<div class="advantage-and__text">влагозащита</div>
+							<div class="advantage-and__subtext"></div>
+						</div>
+					</div>
+					<div data-watch class="and__image"><img src="img/and/bracelets.webp" alt="Bracelets"></div>
+					<div data-watch class="and__promotion promotion-and">
+						<h3 class="promotion-and__title">Успей приобрести по акционному предложению</h3>
+						<div class="promotion-and__price-before">3200 руб</div>
+						<div class="promotion-and__price-after">2500<span>руб</span></div>
+						<a href="#" data-popup="#popup-buy" class="promotion-and__buy button button--buy">Купить сейчас</a>
+						<div class="promotion-and__circle-box-right">
+							<div class="promotion-and__circle promotion-and__circle--right circle"></div>
+						</div>
+						<div class="promotion-and__circle-box-left">
+							<div class="promotion-and__circle promotion-and__circle--left circle"></div>
+						</div>
+						<div class="promotion-and__svg-box-right">
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+						</div>
+						<div class="promotion-and__svg-box-left">
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+							<svg viewBox="0 0 90 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M7 32L21.7972 17.3975C27.6386 11.633 37.0281 11.633 42.8695 17.3975L47.1305 21.6025C52.9719 27.367 62.3614 27.367 68.2028 21.6025L83 7" stroke="#F58D56" stroke-width="13" stroke-linecap="round" />
+							</svg>
+						</div>
+					</div>
+					<div class="and__bottom bottom-and">
+						<div data-watch class="bottom-and__content">
+							<h2 class="bottom-and__title">Xiaomi Band 7</h2>
+							<div class="bottom-and__subtitle">“Большие”</div>
+							<div class="bottom-and__subsubtitle">изменения</div>
+							<a href="#" data-popup="#popup-buy" class="bottom-and__buy button button--buy">Купить сейчас</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="https://www.mi.com/" target="_blank" class="footer__logo logo"><img src="img/icons/logo.svg" alt="Logo"></a>
+				<nav class="footer__body">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" data-goto=".page__main" class="footer__link link">Xiaomi band 7</a></li>
+						<li class="footer__item"><a href="#" data-goto=".page__about" class="footer__link link">Характеристики</a></li>
+						<li class="footer__item"><a href="#" data-popup="#popup-buy" class="footer__link link">Купить</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240724120452"></script>
+</body>
+
+</html>
